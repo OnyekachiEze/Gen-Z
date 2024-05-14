@@ -1,0 +1,205 @@
+.shopbox {
+    display: flex;
+    gap: 2rem;
+}
+.boxtee {
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 3rem;
+}
+.boxtee .img-box:hover img {
+    transform: scale(.7);
+
+}
+.shp button {
+
+    padding: 1rem;
+    width: 50%;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    background-color: #fff;
+}
+.shp:hover button {
+    transform: scale(.8);
+}
+.shp button a {
+    color: black;
+}
+
+
+
+@media screen  and (max-width:768px) {
+    .shopbox {
+        display: block;
+    }
+    
+}
+.shop-div {
+    text-align: center;
+    width: 100%;
+}
+.shp {
+    background-color:#6cd5a9;
+    padding: 0.5rem;
+    margin-top: 5rem;
+    width: 40%;
+    margin-left: 20rem;
+    padding: 3rem;
+    box-shadow: 3px 2px 10px rgb(0, 0, 1.5);
+    border-radius: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width:768px) {
+    .shp{
+        margin-left: -3.5rem;
+        width: 100%;
+    }
+    .shp button {
+        width: 100%;
+    }
+    
+}
+
+.final-gen {
+    display: inline-flex;
+    gap: 5rem;
+    margin-top: 4rem;
+    background-color: #6cd5a9;
+    /* align-items: center; */
+}
+.new-arrivals {
+    margin-left: 7rem;
+}
+
+.new-im {
+    display: inline-flex;
+    gap: 3rem;
+    /* margin-left: 2rem; */
+    
+}
+.img-new img {
+    width: 10%;
+    border:1px solid black;
+    /* gap: 2rem; */
+    margin-top: 0.5rem;
+    
+}
+.txt{
+    margin-left: -29rem;
+}
+.NEWSLETTER h4 {
+    margin-left: 2rem;
+    font-style: bold;
+}
+.TOP-RATED-PRODUCTS h4 {
+    margin-left: 3rem;
+    
+}
+.new-arrivals h4 {
+    margin-left: 2.5rem;
+}
+.contact-info h4 {
+    margin-left: 3rem;
+}
+.contact-info {
+    text-align: center;
+}
+.contact-info li {
+    margin-left: 1.5rem;
+}
+.NEWSLETTER p  {
+    font-size: 1rem;
+
+}
+.NEWSLETTER button {
+    width: 80%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: white;
+}
+.NEWSLETTER input {
+    width: 80%;
+    /* margin-left: -2rem; */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+.NEWSLETTER button a i {
+    color: #000;
+}
+.icon-fa {
+    margin-top: 3.5rem;
+   
+}
+.icon-fa a {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    color: #000;
+}
+@media screen  and (max-width:768px) {
+    .final-gen {
+        display: block;
+        /* margin-left: 3rem; */
+        width: 190%;
+        margin-left: -5rem;
+        align-items: center;
+    }
+    .NEWSLETTER button{
+        width: 50%;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .NEWSLETTER input{
+        margin-left: 1.5rem;
+    }
+    .NEWSLETTER p{
+        margin-left: 1.5rem;
+    }
+    .TOP-RATED-PRODUCTS {
+        margin-left: 1.5rem;
+    }
+    .NEWSLETTER h4 {
+        text-align: center;
+    
+    }
+    .contact-info  h4 {
+        margin-top: 4rem;
+    }
+    .new-arrivals {
+        margin-left: 1.5rem;
+    }
+    .new-arrivals h4 {
+        text-align: center;
+    }
+    .icon-fa{
+        align-items: center;
+        margin-left: 1.5rem; 
+    }
+    .icon-fa a {
+        margin-left: 1.5rem;
+    }
+    
+   
+}
+  .end .sum{
+    position: absolute;
+    margin-left:1rem;
+    margin-top: -1rem;
+    /* background-color: #6cd5a9;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    color: #fff;
+    padding: 1rem; */
+    padding-left: 0.5rem;
+    align-items: center;
+
+    
+}
+
+

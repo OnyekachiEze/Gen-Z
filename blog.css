@@ -1,0 +1,172 @@
+.blog-gen{
+    display: flex;
+    gap: 3.5rem;
+    margin-top: 5rem;
+}
+.blog-img img {
+    height:35rem;
+}
+.blog-txt h1 {
+    font-style: bold;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.blog-txt b {
+    border-bottom: 4px solid #6cd5a9;
+}
+.blog-txt h2 {
+    font-size: 1rem;
+}
+.blog-txt p {
+    background-color: #b6dbdb;
+    /* padding: 1rem; */
+}
+@media screen and (max-width:768px) {
+    .blog-img img {
+        height: 298px;
+        margin-left: -4rem;
+        margin-bottom: 3rem;
+        
+       
+        top: 4.5rem;
+    }
+
+    
+    .blog-gen {
+        display: block;
+    }
+    .blog-txt{
+        /* margin-top: 20rem; */
+    }
+    .blog-txt h1 {
+        border-left: none;
+        border-right: none;
+        font-size: 0.9rem;
+        margin-left: -3rem;
+       
+    }
+    .blog-txt h2{
+        margin-left: -5.5rem;
+        width: 190%;
+    }
+    .blog-txt b {
+        border-bottom: none;
+    }
+    .blog-txt p {
+        margin-left: -4.5rem;
+        width: 190%;
+        background-color: #f2cc98;
+        text-align: center;
+       
+    }
+    .blog-txt2 p {
+
+    }
+
+    
+}
+.blog-second-gen {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 3rem;
+   
+}
+.img-blogs img {
+    height: 400px;
+}
+.blog-txt2 {
+    background-color: #6cd5a9;
+    text-align: center;
+    padding: 1rem;
+}
+@media screen and (max-width:768px) {
+    .blog-second-gen {
+        display: block;
+    }
+    .img-blogs img {
+        height: 350px;
+        margin-left: -5.8rem;
+        margin-top: 3rem;
+        
+    }
+    .blog-txt2 {
+        margin-left: -5rem;
+        width: 179%;
+    }
+    
+    
+}
+
+
+.backgrounds{
+    height: 39rem;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(dragon\ bg\ 2.jpeg);
+    animation: Don 20s infinite  ease-in-out 10s ;
+    margin-top: 2rem;
+    position: absolute;
+    
+}
+
+@keyframes Don {
+    0%{
+        background-image: url(bg1.jpeg);
+    }
+
+
+    60%{
+        background-image: url(bg\ 3.jpeg);
+    }
+
+
+    100%{
+        background-image: url(blog\ first\ img.jpeg);
+    }
+    
+}
+.text {
+    text-align: center;
+    background-color:#6cd5a9;
+    width: 50%;
+    /* padding-left: 2rem; */
+    margin-left: 17rem;
+    padding: 1.5rem;
+    margin-top: 8rem;
+    height: 20rem;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 10px solid rgb(00, 0, 0.2);
+
+}
+.text h1 {
+    margin-top: 1rem;
+    font-style: bold;
+    font-size: 2rem;
+}
+.text p {
+    font-size: 1.5rem;
+}
+.text article {
+    font-size: 0.9rem;
+}
+
+@media screen  and (max-width:768px) {
+    .text {
+        display: none;
+        margin-left: 3rem;
+        background-color:none;
+    }
+    .backgrounds {
+        margin-left: -5.5rem;
+        width: 90%;
+        
+
+    }
+
+    
+}
+
+

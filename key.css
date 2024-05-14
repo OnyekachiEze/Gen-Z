@@ -1,0 +1,25 @@
+body {
+    background-color: blue;
+
+}
+.input-pannel {
+    width: 100%;
+    background-color: #fff;
+    margin: 300px auto;
+    max-width: 500px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.input-pannel input {
+    width: 80%;
+    padding: 0.8rem;
+    border: none;
+    outline: none;
+}
+
+.input-pannel img {
+    width: 30px;
+}

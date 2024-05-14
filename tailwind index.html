@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+          bgS: '#fff',
+          bgcolor: 'red',
+          bglg: 'blue',
+          bgmd: 'black',
+          bgbutton: '#c20505',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <nav class="bg-bgS w-full h-20  shadow-[0_3px_10px_rgb(0,0,0,0.2)] pt-6 lg:pl-8">
+
+        <section class="flex lg:gap-7 items-center ">
+
+            <div class="name font-bold lg:text-2xl md:text-xl ml-2">Construction</div>
+
+            <div class="a-tag">
+                <ul class="flex lg:gap-4 lg:ml-44 invisible lg:visible">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    <a href="#"><li>Page</li></a>
+                    <a href="#"><li>About us </li></a>
+                    <a href="#"><li>Blog</li></a>
+                    <a href="#"><li>Biz</li></a>
+                 
+                </ul>
+
+            </div>
+
+
+            <div class="icon mr-24 relative md:ml-96"> 
+                <i class="fas fa-bars lg:invisible"></i>
+            </div>
+
+        </section>
+    </nav>
+
+    <section>
+       
+        <div class="background w-full lg:pl-8 pt-6 pl-2">
+         <h1 class="lg:text-2xl text-md md:text-xl"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Cum earum dolore inventore ea necessitatibus nam nisi eligendi? <br>Tempore consequuntur at voluptas, deserunt ea quos quo <br> odit mollitia tempora laborum veritatis.</h1>
+
+
+         <button class="h-10 w-28 bg-bgbutton mt-4 rounded-2xl">
+            <a href="# " class="text-bgS">Read more</a>
+         </button>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="box-section">
+            <div class="featured mt-10 lg:text-xl  text-md md:text-xl">
+                <h2 class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magni consequuntur odit,<br> officia ratione exercitationem? Nulla quos odit corrupti sunt dolorum.
+                </h2>
+            </div>
+
+            <section class="lg:flex lg:gap-4 pl-12 pt-6 md:pl-2 lg:pl-20 md:flex  md:gap-2 ">
+                <div class="box  h-64 w-64  mt-3 md:h-40 md:w-29 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-2xl"></div>
+                <div class="box  h-64 w-64  mt-3 md:h-40 md:w-29  shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-2xl"></div>
+                <div class="box  h-64 w-64  mt-3 md:h-40 md:w-29  shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-2xl"></div>
+                <div class="box  h-64 w-64   mt-3 md:h-40 md:w-29  shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-2xl"></div>
+
+            </section>
+        </div>
+
+    </section>
+</body>
+<script src="tailwind.js"></script>
+</html>

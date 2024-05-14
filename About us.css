@@ -1,0 +1,208 @@
+.background{
+    height: 25rem;
+    width: 90%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(blog\ first\ img.jpeg);
+    animation: Don 20s infinite  ease-in-out 10s ;
+    margin-top: 2rem;
+    position: absolute;
+    
+
+}
+
+
+@keyframes Don {
+    0%{
+        background-image: url(blog\ 2\ img.jpeg);
+    }
+
+
+    60%{
+        background-image: url(bg\ 3.jpeg);
+    }
+
+
+    100%{
+        background-image: url(blog\ first\ img.jpeg);
+    }
+    
+}
+.texts{
+    text-align: center;
+    background-color: #eee;
+    width: 60%;
+    margin-left: 15rem;
+    height: 19rem;
+    margin-top: 19rem;
+    align-items: center
+    
+
+}
+.texts h2 {
+   font-size: 4rem;
+    
+}
+.texts p{
+    font-size: 1rem;
+}
+.texts i {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    background-color: #6cd5a9;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:768px) {
+    .background{
+        position: none;
+        margin-left: -0.5rem;
+        width: 97%;
+    }
+    .media{
+        z-index: 10;
+    }
+    .texts{
+        margin-left: -1rem;
+        width: 105%;
+    }
+    .texts h2 {
+        font-size: 2rem;
+    }
+    
+}
+.info {
+    margin-top: 45rem;
+}
+.txe{
+    text-align: center;
+}
+.images img{
+    width: 25%;
+    border-radius: 50%;
+    border: 3px solid #6cd5a9;
+}
+.sec{
+    align-items: center;
+}
+.gen{
+    display: flex;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+section {
+    background-color:whitesmoke;
+    margin-bottom: 2rem;
+}
+.txe h3 {
+    font-size: 2.5rem;
+    padding-top: 4rem;
+    font-style: bold;
+}
+section button {
+    margin-left: 35rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+    border: 2px solid #6cd5a9;
+
+
+}
+section button a{
+    color: black;
+}
+.sec a  i {
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    align-items: center;
+    border-radius: 40%;
+    color: black;
+    margin: -0.5rem;
+
+}
+@media screen  and (max-width:768px) {
+    section {
+        margin-left: -5rem;
+        width: 200%;
+        margin-bottom: 2rem;
+        
+
+    }
+    .txe h3 {
+        font-size: 1.5rem;
+    }
+    .gen{
+        display: grid;
+        padding-left: -1rem;
+        padding-top: 2rem;
+        
+
+    }
+    section button {
+        margin-left: 7.5rem;
+    }
+    .im{
+        margin-top: 1rem;
+        align-items: center;
+    }
+    .sec h3 {
+        margin-left: -2rem;
+
+    }
+    .sec a {
+        margin-left: -0.5rem;
+    }
+    
+}
+.txt-g{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.work{
+    text-align: center;
+}
+.work h2 {
+    padding-top:3rem ;
+}
+.ye h4 {
+    font-size: 20px;
+
+
+}
+.btn{
+    
+    margin-left: -5rem;
+}
+section hr {
+    width: 95%;
+}
+.footer-gen{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    padding-left: 10px;
+}
+.fid i{
+    margin-left: 10px;
+    color: black;
+    width: 30px;
+    font-size: 25px;
+
+}
+footer {
+    background-color: #6cd5a9;
+}
+@media screen and (max-width:768px) {
+    .footer-gen{
+        display: inline-block;
+    }
+    footer{
+        width: 355px;
+        margin-left:-94px ;
+    }
+    
+}
